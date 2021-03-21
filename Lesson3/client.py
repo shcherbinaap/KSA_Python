@@ -40,6 +40,7 @@ class sock():
         print('Сообщение от сервера: ', (data.decode(ENCODING)), ', длиной ', len(data), 'байт')
 
 
+
 def main(msg, adr, port):
     with socket(AF_INET, SOCK_STREAM) as s:
         sock_obj = sock(s)

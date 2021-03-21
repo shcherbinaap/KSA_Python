@@ -33,6 +33,7 @@ class TestCreateParser(unittest.TestCase):
             1010
         )
 
+
 class TestSock(unittest.TestCase):
 
     def test_connect(self):
